@@ -10,7 +10,10 @@ namespace sample_programming_csharp
             ProductTest.Run();
 
             Console.WriteLine("Given a string find out duplicate character and its count");
-            new DuplicatesInString().Run();
+            new DuplicateCharsInString().Run();
+
+            Console.WriteLine("Find repeated word in the sentence.");
+            new DuplicateWordsInSentence().Run();
         }
     }
 }
