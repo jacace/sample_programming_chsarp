@@ -8,7 +8,9 @@ namespace sample_programming_csharp
         {
             Console.WriteLine("Product query engine:");
             ProductTest.Run();
-            
+
+            Console.WriteLine("Given a string find out duplicate character and its count");
+            new DuplicatesInString().Run();
         }
     }
 }
