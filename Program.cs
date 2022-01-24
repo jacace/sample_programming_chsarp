@@ -14,6 +14,9 @@ namespace sample_programming_csharp
 
             Console.WriteLine("Find repeated word in the sentence.");
             new DuplicateWordsInSentence().Run();
+
+            Console.WriteLine("Reverse Singly Linked List:");
+            new SinglyLinkedListTest().Run();
         }
     }
 }
