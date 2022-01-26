@@ -17,6 +17,15 @@ namespace sample_programming_csharp
 
             Console.WriteLine("Reverse Singly Linked List:");
             new SinglyLinkedListTest().Run();
+
+            Console.WriteLine("Find second largest number in an array?");
+            new ArrayTest().Run();
+
+            Console.WriteLine("Sort a queue");
+            new QueueTest().Run();
+
+            Console.WriteLine("Runnign the old-school fibonacci");
+            new Fibonacci().Print(145);
         }
     }
 }

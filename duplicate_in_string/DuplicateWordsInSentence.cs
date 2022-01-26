@@ -60,13 +60,16 @@ public class DuplicateWordsInSentence
             if (needsToBeAdded)
             {
                 word = sb.ToString().ToUpper();
-                if (duplicates.ContainsKey(word))
+                if (word.Length > 1 && !separators.Contains(word[0]))
                 {
-                    duplicates[word]++;
-                }
-                else
-                {
-                    duplicates.Add(word, 1);
+                    if (duplicates.ContainsKey(word))
+                    {
+                        duplicates[word]++;
+                    }
+                    else
+                    {
+                        duplicates.Add(word, 1);
+                    }
                 }
                 sb.Clear();
             }
