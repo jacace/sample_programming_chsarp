@@ -26,6 +26,9 @@ namespace sample_programming_csharp
 
             Console.WriteLine("Runnign the old-school fibonacci");
             new Fibonacci().Print(145);
+
+            Console.WriteLine("Find Max Diff Between Items in Array");
+            new FindMaxDiffBetweenItems().Run();
         }
     }
 }
